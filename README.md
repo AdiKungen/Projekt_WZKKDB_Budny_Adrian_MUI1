@@ -5,7 +5,7 @@ Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, 
 ---
 
 ## O projekcie
-Projekt został wykonany w ramach zajęć "Wprowadzenie do zagadnień klasyfikacji i klasteryzacji danych biometrycznych" na semestrze zimowym 2025/2026, studiów drugiego stopnia.
+Projekt został wykonany w ramach zajęć „Wprowadzenie do zagadnień klasyfikacji i klasteryzacji danych biometrycznych” na semestrze zimowym 2025/2026, studiów drugiego stopnia.
 
 Aplikacja powstała jako wszechstronne narzędzie analityczne ułatwiające badaczom i studentom przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez konieczności pisania kodu. Aplikacja dedykowana jest w szczególności danym biometrycznym i medycznym (np. cechom jądra komórkowego przy diagnostyce nowotworów), gdzie kluczową rolę odgrywa poprawna imputacja braków, skalowanie wartości numerycznych oraz balansowanie klas decyzyjnych.
 
@@ -36,6 +36,46 @@ Dzięki integracji bibliotek Streamlit, Scikit-learn, Imbalanced-learn oraz Plot
 4. **Uczenie maszynowe i ewaluacja:**
    * **Klasyfikacja pojedyncza:** trenowanie i analiza wybranego modelu (`Random Forest`, `k-NN`, `SVM`). Wyświetlanie metryki dokładności (_Accuracy_), szczegółowego raportu (_Precision_, _Recall_, _F1-score_, _Support_) oraz interaktywnej macierzy pomyłek (_ang._ Confusion Matrix).
    * **Klasyfikacja wspólna (Benchmark):** jednoczesne trenowanie wszystkich 3 algorytmów na tym samym podziale testowym (70% train / 30% test), zestawienie tabelaryczne oraz porównawczy wykres słupkowy.
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/main_view.png" alt="Widok główny aplikacji">
+  <br>
+  <em>Rysunek 1: Widok ogólny interfejsu aplikacji po wczytaniu danych i skonfigurowaniu parametrów w panelu bocznym.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/raw_data_preview.png" alt="Podgląd danych surowych">
+  <br>
+  <em>Rysunek 2: Rozwinięta sekcja „Podgląd danych surowych” prezentująca próbkę rekordów, wymiary oraz statystyki opisowe zbioru.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/pca_3d.png" alt="Redukcja wymiarowości PCA 3D">
+  <br>
+  <em>Rysunek 3: Trójwymiarowa wizualizacja rzutowania cech po redukcji wymiarowości metodą PCA z podziałem na klasy decyzyjne.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/single_classification.png" alt="Klasyfikacja pojedyncza - Random Forest">
+  <br>
+  <em>Rysunek 4: Wyniki trenowania i ewaluacji pojedynczego modelu (Random Forest) z metryką dokładności, raportem klasyfikacji oraz macierzą pomyłek.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/models_comparison.png" alt="Klasyfikacja wspólna - porównanie modeli">
+  <br>
+  <em>Rysunek 5: Porównanie skuteczności trzech klasyfikatorów (Random Forest, k-NN, SVM) w ujęciu tabelarycznym i na wykresie słupkowym.</em>
+</p>
 
 ---
 
