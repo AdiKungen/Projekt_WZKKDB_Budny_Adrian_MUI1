@@ -2,6 +2,13 @@
 
 Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, redukcji wymiarowości oraz uczenia maszynowego na danych tabelarycznych i biometrycznych.
 
+> [!IMPORTANT]
+> ### Wersja demonstracyjna na żywo (Live Demo)
+> Przetestuj działającą aplikację: **[biometric-tool.streamlit.app](https://biometric-tool.streamlit.app/)**
+> 
+> *Do pełnego przetestowania aplikacji wymagane jest wczytanie pliku CSV. Możesz użyć własnego zbioru danych lub pobrać przygotowany plik testowy bezpośrednio z repozytorium: [`demo-data/data.csv`](demo-data/data.csv) (szczegóły pochodzenia i licencji danych znajdziesz w sekcji [Podziękowania / Credits](#podziękowania--credits)).*
+
+
 ---
 
 ## O projekcie
