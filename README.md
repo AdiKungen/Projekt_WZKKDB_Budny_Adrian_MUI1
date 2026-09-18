@@ -6,7 +6,7 @@ Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, 
 > ### Wersja demonstracyjna na żywo (Live Demo)
 > Przetestuj działającą aplikację: **[biometric-tool.streamlit.app](https://biometric-tool.streamlit.app/)**
 > 
-> *Do pełnego przetestowania aplikacji wymagane jest wczytanie pliku CSV. Możesz użyć własnego zbioru danych lub pobrać przygotowany plik testowy bezpośrednio z repozytorium: [`demo-data/data.csv`](demo-data/data.csv) (szczegóły pochodzenia i licencji danych znajdziesz w sekcji [Podziękowania / Credits](#podziękowania--credits)).*
+> *Do pełnego przetestowania aplikacji wymagane jest wczytanie pliku CSV. Możesz użyć własnego zbioru danych lub pobrać przygotowany plik testowy bezpośrednio z repozytorium: [`demo-data/data.csv`](demo-data/data.csv) (szczegółowy opis oraz pochodzenie danych znajdziesz w sekcji [Przykładowy zbiór danych do testów](#przykładowy-zbiór-danych-do-testów)*
 
 
 ---
@@ -144,6 +144,7 @@ W repozytorium przygotowano gotowy plik z danymi do przetestowania wszystkich fu
 * **Lokalizacja:** [`demo-data/data.csv`](demo-data/data.csv)
 * **Charakterystyka:** Zbiór zawiera **569 rekordów** oraz **30 numerycznych cech** opisujących właściwości jądra komórkowego (m.in. promień, teksturę, obwód, pole powierzchni, symetrię).
 * **Zmienna decyzyjna (Target):** Kolumna `diagnosis` określająca typ zmiany nowotworowej: złośliwa (**M** - _Malignant_, 212 próbek) lub łagodna (**B** - _Benign_, 357 próbek).
+* **Źródło i licencja:** Pełne informacje dotyczące źródła danych, autorów oraz licencji znajdziesz w sekcji [Podziękowania / Credits](#podziękowania--credits).
 
 ---
 
