@@ -8,7 +8,6 @@ Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, 
 > 
 > *Do pełnego przetestowania aplikacji wymagane jest wczytanie pliku CSV. Możesz użyć własnego zbioru danych lub pobrać przygotowany plik testowy bezpośrednio z repozytorium: [`demo-data/data.csv`](demo-data/data.csv) (szczegółowy opis oraz pochodzenie danych znajdziesz w sekcji [Przykładowy zbiór danych do testów](#przykładowy-zbiór-danych-do-testów)*
 
-
 ---
 
 ## O projekcie
@@ -16,7 +15,7 @@ Projekt został wykonany w ramach zajęć „Wprowadzenie do zagadnień klasyfik
 
 Aplikacja powstała jako wszechstronne narzędzie analityczne ułatwiające badaczom i studentom przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez konieczności pisania kodu. Aplikacja dedykowana jest w szczególności danym biometrycznym i medycznym (np. cechom jądra komórkowego przy diagnostyce nowotworów), gdzie kluczową rolę odgrywa poprawna imputacja braków, skalowanie wartości numerycznych oraz balansowanie klas decyzyjnych.
 
-Dzięki integracji bibliotek Streamlit, Scikit-learn, Imbalanced-learn oraz Plotly, użytkownik ma natychmiastowy, wizualny wgląd w to, jak każdy kolejny krok preprocessingu modyfikuje strukturę zbioru danych przed podaniem go do modeli klasyfikacyjnych.
+Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` oraz `Plotly`, użytkownik ma natychmiastowy, wizualny wgląd w to, jak każdy kolejny krok preprocessingu modyfikuje strukturę zbioru danych przed podaniem go do modeli klasyfikacyjnych.
 
 ---
 
@@ -93,7 +92,7 @@ Dzięki integracji bibliotek Streamlit, Scikit-learn, Imbalanced-learn oraz Plot
 * **Manipulacja i analiza danych:** [Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/)
 * **Uczenie maszynowe i preprocessing:** [scikit-learn](https://scikit-learn.org/)
 * **Równoważenie klas:** [imbalanced-learn](https://imbalanced-learn.org/)
-* **Wizualizacje interaktywne:** [Plotly Express](https://plotly.com/python/)
+* **Wizualizacje interaktywne:** [Plotly](https://plotly.com/python/)
 
 ---
 
@@ -136,7 +135,7 @@ Dzięki integracji bibliotek Streamlit, Scikit-learn, Imbalanced-learn oraz Plot
    ```bash
    streamlit run app.py
    ```
-   Aplikacja otworzy się automatycznie w Twojej domyślnej przeglądarce pod adresem: `http://localhost:8501` *(w przypadku zajętego portu zostanie przydzielony kolejny wolny port, np. 8502)*.
+   Aplikacja otworzy się automatycznie w Twojej domyślnej przeglądarce pod adresem: `http://localhost:8501` *(w przypadku zajętego portu zostanie przydzielony kolejny wolny port np. 8502)*.
 
 ### Przykładowy zbiór danych do testów
 
@@ -144,7 +143,7 @@ W repozytorium przygotowano gotowy plik z danymi do przetestowania wszystkich fu
 * **Lokalizacja:** [`demo-data/data.csv`](demo-data/data.csv)
 * **Charakterystyka:** Zbiór zawiera **569 rekordów** oraz **30 numerycznych cech** opisujących właściwości jądra komórkowego (m.in. promień, teksturę, obwód, pole powierzchni, symetrię).
 * **Zmienna decyzyjna (Target):** Kolumna `diagnosis` określająca typ zmiany nowotworowej: złośliwa (**M** - _Malignant_, 212 próbek) lub łagodna (**B** - _Benign_, 357 próbek).
-* **Źródło i licencja:** Pełne informacje dotyczące źródła danych, autorów oraz licencji znajdziesz w sekcji [Podziękowania / Credits](#podziękowania--credits).
+* **Źródło i licencja:** Pełne informacje dotyczące źródła danych, autorów oraz licencji znajdziesz poniżej w sekcji [Podziękowania / Credits](#podziękowania--credits).
 
 ---
 
