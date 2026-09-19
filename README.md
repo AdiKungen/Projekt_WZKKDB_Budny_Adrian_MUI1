@@ -1,10 +1,10 @@
-# Narzędzie do analizy i klasyfikacji danych biometrycznych
+# Biometric Classifier - Narzędzie do analizy i klasyfikacji danych biometrycznych
 
 Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, redukcji wymiarowości oraz uczenia maszynowego na danych tabelarycznych i biometrycznych.
 
 > [!IMPORTANT]
 > ### Wersja demonstracyjna na żywo (Live Demo)
-> Przetestuj działającą aplikację: **[biometric-tool.streamlit.app](https://biometric-tool.streamlit.app/)**
+> Przetestuj działającą aplikację: **[biometric-classifier.streamlit.app](https://biometric-classifier.streamlit.app/)**
 > 
 > *Do pełnego przetestowania aplikacji wymagane jest wczytanie pliku CSV. Możesz użyć własnego zbioru danych lub pobrać przygotowany plik testowy bezpośrednio z repozytorium: [`demo-data/data.csv`](demo-data/data.csv) (szczegółowy opis oraz pochodzenie danych znajdziesz w sekcji [Przykładowy zbiór danych do testów](#przykładowy-zbiór-danych-do-testów)*
 
