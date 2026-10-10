@@ -13,7 +13,7 @@ Interaktywna aplikacja webowa wspierająca proces przygotowania, transformacji, 
 ## O projekcie
 Projekt został wykonany w ramach zajęć „Wprowadzenie do zagadnień klasyfikacji i klasteryzacji danych biometrycznych” na semestrze zimowym 2025/2026, studiów drugiego stopnia.
 
-Aplikacja powstała jako wszechstronne narzędzie analityczne ułatwiające badaczom i studentom przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez konieczności pisania kodu. Aplikacja dedykowana jest w szczególności danym biometrycznym i medycznym (np. cechom jądra komórkowego przy diagnostyce nowotworów), gdzie kluczową rolę odgrywa poprawna imputacja braków, skalowanie wartości numerycznych oraz balansowanie klas decyzyjnych.
+Aplikacja powstała jako wszechstronne narzędzie analityczne ułatwiające badaczom i studentom przejście przez kompletny cykl uczenia maszynowego (ML pipeline) bez konieczności pisania kodu. Aplikacja dedykowana jest w szczególności danym biometrycznym oraz medycznym (np. cechom jądra komórkowego przy diagnostyce nowotworów), gdzie kluczową rolę odgrywa poprawna imputacja braków, skalowanie wartości numerycznych oraz balansowanie klas decyzyjnych.
 
 Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` oraz `Plotly`, użytkownik ma natychmiastowy, wizualny wgląd w to, jak każdy kolejny krok preprocessingu modyfikuje strukturę zbioru danych przed podaniem go do modeli klasyfikacyjnych.
 
@@ -40,7 +40,7 @@ Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` ora
    * Interaktywna wizualizacja rozrzutu danych za pomocą biblioteki `Plotly Express` z kolorystycznym wyróżnieniem etykiet klas.
 
 4. **Uczenie maszynowe i ewaluacja:**
-   * **Klasyfikacja pojedyncza:** trenowanie i analiza wybranego modelu (`Random Forest`, `k-NN`, `SVM`). Wyświetlanie metryki dokładności (_Accuracy_), szczegółowego raportu (_Precision_, _Recall_, _F1-score_, _Support_) oraz interaktywnej macierzy pomyłek (_ang._ Confusion Matrix).
+   * **Klasyfikacja pojedyncza:** trenowanie oraz analiza wybranego modelu (`Random Forest`, `k-NN`, `SVM`). Wyświetlanie metryki dokładności (_Accuracy_), szczegółowego raportu (_Precision_, _Recall_, _F1-score_, _Support_) oraz interaktywnej macierzy pomyłek (_ang._ Confusion Matrix).
    * **Klasyfikacja wspólna (Benchmark):** jednoczesne trenowanie wszystkich 3 algorytmów na tym samym podziale testowym (70% train / 30% test), zestawienie tabelaryczne oraz porównawczy wykres słupkowy.
 
 ---
