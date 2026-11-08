@@ -28,7 +28,7 @@ Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` ora
    * Interaktywny podgląd próbek danych i statystyk opisowych (`df.describe()`).
 
 2. **Zaawansowany preprocessing:**
-   * **Imputacja braków danych:** usunięcie wierszy zawierających NaN lub uzupełnienie statystyczne (*średnia*, *mediana*, *wartość najczęstsza*).
+   * **Imputacja braków danych:** usunięcie wierszy zawierających _NaN_ lub uzupełnienie statystyczne (*średnia*, *mediana*, *wartość najczęstsza*).
    * **Skalowanie i normalizacja:** standaryzacja `StandardScaler` (`Z-score`), normalizacja `MinMaxScaler` do zakresu $[0, 1]$ oraz `RobustScaler` (odporny na wartości odstające).
    * **Balansowanie klas:**
      * Nadpróbkowanie (_ang._ Oversampling) algorytmy `SMOTE` oraz `ADASYN`.
