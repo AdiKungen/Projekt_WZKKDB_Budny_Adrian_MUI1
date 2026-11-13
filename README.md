@@ -142,7 +142,7 @@ Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` ora
 W repozytorium przygotowano gotowy plik z danymi do przetestowania wszystkich funkcjonalności aplikacji:
 * **Lokalizacja:** [`demo-data/data.csv`](demo-data/data.csv)
 * **Charakterystyka:** Zbiór zawiera **569 rekordów** oraz **30 numerycznych cech** opisujących właściwości jądra komórkowego (m.in. promień, teksturę, obwód, pole powierzchni, symetrię).
-* **Zmienna decyzyjna (Target):** Kolumna `diagnosis` określająca typ zmiany nowotworowej: złośliwa (M - _Malignant_, 212 próbek) lub łagodna (B - _Benign_, 357 próbek).
+* **Zmienna decyzyjna (Target):** Kolumna `diagnosis` określająca typ zmiany nowotworowej: złośliwa (**M** - _Malignant_, 212 próbek) lub łagodna (**B** - _Benign_, 357 próbek).
 * **Źródło i licencja:** Pełne informacje dotyczące źródła danych, autorów oraz licencji znajdziesz poniżej w sekcji [Podziękowania / Credits](#podziękowania--credits).
 
 ---
