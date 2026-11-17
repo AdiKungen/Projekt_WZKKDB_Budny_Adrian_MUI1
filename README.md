@@ -41,7 +41,7 @@ Dzięki integracji bibliotek `Streamlit`, `Scikit-learn`, `Imbalanced-learn` ora
 
 4. **Uczenie maszynowe i ewaluacja:**
    * **Klasyfikacja pojedyncza:** trenowanie oraz analiza wybranego modelu (`Random Forest`, `k-NN`, `SVM`). Wyświetlanie metryki dokładności (_Accuracy_), szczegółowego raportu (_Precision_, _Recall_, _F1-score_, _Support_) oraz interaktywnej macierzy pomyłek (_ang._ Confusion Matrix).
-   * **Klasyfikacja wspólna (Benchmark):** jednoczesne trenowanie wszystkich 3 algorytmów na tym samym podziale testowym (70% train / 30% test), zestawienie tabelaryczne oraz porównawczy wykres słupkowy.
+   * **Klasyfikacja wspólna (`Benchmark`):** jednoczesne trenowanie wszystkich 3 algorytmów na tym samym podziale testowym (70% train / 30% test), zestawienie tabelaryczne oraz porównawczy wykres słupkowy.
 
 ---
 
